@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_edittext_grey"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/address_server"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="server_ip"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+                <EditText
+                    android:id="@+id/sip_num"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:drawableEnd="@drawable/clear2"
+                    android:paddingEnd="4dp"
+                    android:hint="sip_number"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.widget.Button
+                    android:id="@+id/num_1"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_1" />
+
+
+                <android.widget.Button
+                    android:id="@+id/num_2"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_2" />
+
+                <android.widget.Button
+                    android:id="@+id/num_3"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_3" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.widget.Button
+                    android:id="@+id/num_4"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_4" />
+
+                <android.widget.Button
+                    android:id="@+id/num_5"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_5" />
+
+                <android.widget.Button
+                    android:id="@+id/num_6"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/num_7"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_7" />
+
+
+                <android.widget.Button
+                    android:id="@+id/num_8"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_8" />
+
+
+                <android.widget.Button
+                    android:id="@+id/num_9"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/num_9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/reg"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/blue_button"
+                    android:contentDescription="reg"
+                    android:foreground="@drawable/_phone_close__"
+                    android:gravity="center"
+                    android:padding="0dp" />
+
+
+                <android.widget.Button
+                    android:id="@+id/num_0"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arow_button"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="0" />
+
+
+                <android.widget.Button
+                    android:id="@+id/call"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/blue_button"
+                    android:contentDescription="call"
+                    android:foreground="@drawable/_mic_close__"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

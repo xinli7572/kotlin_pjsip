@@ -1,0 +1,14 @@
+com.google.vr.widgets.common
+dimen button_padding
+drawable quantum_ic_cardboard_white_24
+drawable quantum_ic_close_white_24
+drawable quantum_ic_fullscreen_white_24
+drawable quantum_ic_info_white_24
+id control_layout
+id fullscreen_back_button
+id fullscreen_button
+id info_button
+id vr_mode_button
+id vrwidget_inner_view
+layout ui_view_embed
+style ControlButton
